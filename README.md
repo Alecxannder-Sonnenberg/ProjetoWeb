@@ -1,7 +1,10 @@
 # Project Report
 Participantes
+
 Alecxannder J. S. B. Ferreira - NºUSP 10295707
+
 Jayro Boy de Vasconcellos Neto - NºUSP 9762880
+
 Gabriel dos Santos Brito - NºUSP 10284250
 
 ## 0. Project Idea
