@@ -1,50 +1,49 @@
-Project Report
+# Project Report
 Participantes
 Alecxannder J. S. B. Ferreira - NºUSP 10295707
 Jayro Boy de Vasconcellos Neto - NºUSP 9762880
 Gabriel dos Santos Brito - NºUSP 10284250
-0. Project Idea
-Nosso site permite a venda e compra de realização de trabalhos acadêmicos dentro
-da plataforma. Os produtos podem ser avaliados e comentados por usuários. Os usuários
-podem adicionar crédito em conta sendo capazes de assim realizar compras com esse
-valor. Usuários também podem oferecer seus serviços no site.
-1. Requirements
-Nossa plataforma, como pedido na especificação do projeto, comporta dois tipos de
-usuário: Clientes e Administradores. Todos possuem os atributos requisitados, com exceção
-de telefone. Administrador e Cliente podem acessar suas contas por meio da mesma
-página de l ogin.
-O Administrador pode aceitar ou remover i tens da l oja, banir usuários e moderar
-comentários e avaliações. Na sua página possui as opções: verificar seus dados, verificar
-denúncias, histórico de banimentos.
-O cliente pode adicionar i tens ao seu carrinho de compras, comentar e avaliar
-produtos, alterar seus dados, verificar seu histórico de compra e buscar por produtos no
-site. Também pode adicionar à sua conta dinheiro que será creditado para compras futuras.
-Além disso, pode oferecer a realização de um trabalho.
-Todo produto nosso possui uma página i ndividual contendo i nformações sobre o
-produto como um nome, foto, descrição, preço, quantidade vendida, comentários e
-avaliação de 0 a 5 estrelas. Não faz sentido termos uma quantidade de estoque pela
-natureza do nosso produto. Vendedores podem alterar as i nformações do produto conforme
-o desejado, exceto por avaliação, comentários e número de produtos vendidos.
-Após a seleção dos produtos, na página de carrinho, o usuário pode finalizar a
-compra optando por usar o método de pagamento padrão ou outro método. Com i sso o
-carrinho é esvaziado e os produtos são adicionados ao histórico de compras do cliente, se
-crédito foi usado ele é subtraído da conta do comprador, o valor da compra é creditado na
-conta do vendedor ou enviado a conta bancária/serviço desejado pelo vendedor.
-2. Project Description
-● Navigation diagram for your application l inked to the screen mockups. This l ink can be
-just the name of the mockup (i.e. Mockup1, Mockup2, etc) or an H TML link.
-● The i nformation you are going to save i n the server (no need to decide how that
-information will be saved).
-As funcionalidades do nosso projeto são:
-Cadastramento no Site
-Os usuários, ao entrarem no site, se não possuírem uma conta, vão ter a opção de
-se cadastrar no site, opções como minha conta e meu carrinho l evariam até a página de
-cadastro. Usuários não cadastrados podem realizar buscas e visualizar produtos, mas não
-podem avaliar ou comentar em um produto.
-Um administrador recebe seu nome de usuário e senha de modo externo , então
-não precisa se cadastrar por via dessas páginas.
-Imaginamos que a conta será armazenada na nossa base de dados do servidor
-junto com as i nformações pertinentes.
+
+  ## 0. Project Idea
+      Nosso "site" permite a venda e compra de realização de trabalhos acadêmicos dentro
+  da plataforma. Os produtos podem ser avaliados e comentados por usuários. Os usuários
+  podem adicionar crédito em conta sendo capazes de assim realizar compras com esse
+  valor. Usuários também podem oferecer seus serviços no site.
+  ## 1. Requirements
+      Nossa plataforma, como pedido na especificação do projeto, comporta dois tipos de
+  usuário: Clientes e Administradores. Todos possuem os atributos requisitados, com exceção
+  de telefone. Administrador e Cliente podem acessar suas contas por meio da mesma
+  página de l ogin.
+      O Administrador pode aceitar ou remover i tens da l oja, banir usuários e moderar
+   comentários e avaliações. Na sua página possui as opções: verificar seus dados, verificar
+   denúncias, histórico de banimentos.
+      O cliente pode adicionar i tens ao seu carrinho de compras, comentar e avaliar
+  produtos, alterar seus dados, verificar seu histórico de compra e buscar por produtos no
+  site. Também pode adicionar à sua conta dinheiro que será creditado para compras futuras.
+  Além disso, pode oferecer a realização de um trabalho.
+      Todo produto nosso possui uma página i ndividual contendo i nformações sobre o
+  produto como um nome, foto, descrição, preço, quantidade vendida, comentários e
+  avaliação de 0 a 5 estrelas. Não faz sentido termos uma quantidade de estoque pela
+  natureza do nosso produto. Vendedores podem alterar as i nformações do produto conforme
+  o desejado, exceto por avaliação, comentários e número de produtos vendidos.
+      Após a seleção dos produtos, na página de carrinho, o usuário pode finalizar a
+  compra optando por usar o método de pagamento padrão ou outro método. Com i sso o
+  carrinho é esvaziado e os produtos são adicionados ao histórico de compras do cliente, se
+  crédito foi usado ele é subtraído da conta do comprador, o valor da compra é creditado na
+  conta do vendedor ou enviado a conta bancária/serviço desejado pelo vendedor.
+  ## 2. Project Description
+    
+   As funcionalidades do nosso projeto são:
+
+    Cadastramento no Site
+      Os usuários, ao entrarem no site, se não possuírem uma conta, vão ter a opção de
+   se cadastrar no site, opções como minha conta e meu carrinho l evariam até a página de
+   cadastro. Usuários não cadastrados podem realizar buscas e visualizar produtos, mas não
+   podem avaliar ou comentar em um produto.
+      Um administrador recebe seu nome de usuário e senha de modo externo , então
+    não precisa se cadastrar por via dessas páginas.
+      Imaginamos que a conta será armazenada na nossa base de dados do servidor
+  junto com as informações pertinentes.
 Login no Site
 Tanto usuários quanto administradores podem acessar suas contas por meio da
 página de l ogin, i nserindo nos campos nome de usuário e senhas, os dados respectivos.
