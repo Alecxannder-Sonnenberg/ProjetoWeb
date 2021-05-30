@@ -17,23 +17,23 @@ podem adicionar crédito em conta sendo capazes de assim realizar compras com es
 valor. Usuários também podem oferecer seus serviços no site.
 ## 1. Requirements
       
-  Nossa plataforma, como pedido na especificação do projeto, comporta dois tipo de 
+  *Nossa plataforma, como pedido na especificação do projeto, comporta dois tipo de 
 usuário : Clientes e Administradores. Todos possuem os atributos requisitados, com exceção
 de telefone. Administrador e Cliente podem acessar suas contas por meio da mesma
 página de login.
-  O Administrador pode aceitar ou remover itens da loja, banir usuários e moderar
+  *O Administrador pode aceitar ou remover itens da loja, banir usuários e moderar
 comentários e avaliações. Na sua página possui as opções: verificar seus dados, verificar
 denúncias, histórico de banimentos.
-  O cliente pode adicionar itens ao seu carrinho de compras, comentar e avaliar
+  *O cliente pode adicionar itens ao seu carrinho de compras, comentar e avaliar
 produtos, alterar seus dados, verificar seu histórico de compra e buscar por produtos no
 site. Também pode adicionar à sua conta dinheiro que será creditado para compras futuras.
  Além disso, pode oferecer a realização de um trabalho.
- Todo produto nosso possui uma página individual contendo informações sobre o
+ *Todo produto nosso possui uma página individual contendo informações sobre o
 produto como um nome, foto, descrição, preço, quantidade vendida, comentários e
 avaliação de 0 a 5 estrelas. Não faz sentido termos uma quantidade de estoque pela
 natureza do nosso produto. Vendedores podem alterar as informações do produto conforme
 o desejado, exceto por avaliação, comentários e número de produtos vendidos.
- Após a seleção dos produtos, na página de carrinho, o usuário pode finalizar a
+ *Após a seleção dos produtos, na página de carrinho, o usuário pode finalizar a
 compra optando por usar o método de pagamento padrão ou outro método. Com isso o
 carrinho é esvaziado e os produtos são adicionados ao histórico de compras do cliente, se
 crédito foi usado ele é subtraído da conta do comprador, o valor da compra é creditado na
