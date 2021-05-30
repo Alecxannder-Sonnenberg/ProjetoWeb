@@ -8,7 +8,7 @@ Jayro Boy de Vasconcellos Neto - NºUSP 9762880
 Gabriel dos Santos Brito - NºUSP 10284250
 
 Ao abrir o ZIP nomeado MockUpProjetoWeb a "navegação" do mockup pode ser iniciada atráves do telainicialsemlogin.html, que é um bom ponto de começo para explorar as funcionalidades de nosso projeto. Alguns botões das paginas do Admnistrados (Como historico de compras e meus produtos, e outros comuns entre nossos usuarios) levam a paginas
-onde aparece como usuario, claramente não é nosso intuito manter isso no produto final, mas para fins de mockup acreditamos ser tolerável.
+onde aparece como usuario, claramente não é nosso intuito manter isso no produto final, mas para fins de mockup acreditamos ser tolerável. Para uma visão mais geral por favor visualizem o diagrama de navegação, no formato PNG, contido no git.
 
 ## 0. Project Idea
   Nosso "site" permite a venda e compra de realização de trabalhos acadêmicos dentro
