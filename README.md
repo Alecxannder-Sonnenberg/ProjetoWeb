@@ -17,7 +17,7 @@ podem adicionar crédito em conta sendo capazes de assim realizar compras com es
 valor. Usuários também podem oferecer seus serviços no site.
 ## 1. Requirements
       
-  -Nossa plataforma, como pedido na especificação do projeto, comporta dois tipo de 
+-Nossa plataforma, como pedido na especificação do projeto, comporta dois tipo de 
 usuário : Clientes e Administradores. Todos possuem os atributos requisitados, com exceção
 de telefone. Administrador e Cliente podem acessar suas contas por meio da mesma
 página de login.
