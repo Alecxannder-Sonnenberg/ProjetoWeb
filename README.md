@@ -85,7 +85,7 @@ ele, alterando nomes, preços, imagem e descrição do produto.
 * Um usuário pode excluir um item dos seus produtos ofertados, tirando o produto da
 base de dados de busca. Mesmo que o item seja “excluido”, administradores deveriam ter
 acesso para fins de moderação.
-* Administradores podem também excluir i tens de baixa qualidade/mal serviços, ou de
+* Administradores podem também excluir itens de baixa qualidade/mal serviços, ou de
 usuários que realizam fraudes e outros tipos de má prática.
 * Por hora assumimos que nosso produto, uma vez excluído, é removido da base de
 dados.
