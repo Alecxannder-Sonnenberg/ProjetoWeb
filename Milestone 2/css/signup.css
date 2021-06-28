@@ -1,0 +1,140 @@
+/* TAG */
+body{
+  background-color: #0e4e6a;
+}
+
+
+/* HEADER */
+/* NAV */
+
+.navbar{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+/* ELEMENTOS DO LOGO*/
+
+#le{
+
+  width: auto;
+  height: auto;
+  cursor: pointer;
+
+}
+
+/* ELEMENTOS DE NAVEGAÇÃO (NAV) */
+
+.navbar ul {
+  border: 1px solid;
+  background-color: grey;
+  border-radius: 10px;
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0px 2px 0px 0px;
+  padding: 25px 20px 25px 20px;
+
+}
+
+/* TEXTO DOS ELEMENTOS DA BARRA EM NAV */
+.navbar ul li a{
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  position: relative;
+}
+
+/* BARRA DE BUSCA */
+#busca {
+  width: 250px;
+  border-radius: 2px;
+}
+
+/* FIM DE NAV */
+/*FIM DO HEADER */
+
+.sudata{
+
+  width: 13em;
+  background-color: grey;
+  padding: 10px 30px 20px 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  border: 2px solid black;
+  border-radius: 10px;
+  overflow: auto;
+
+}
+
+.information{
+
+  margin: 15px 10px 0px 10px;
+  color: #FFFFFF;
+}
+
+.information input{
+
+  margin: 15px 10px 10px 10px;
+  border: 2px solid black;
+
+}
+
+/* BOTÕES */
+
+.buttons{
+  margin: 10px;
+}
+
+.buttons button{
+  outline: none;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.buttons a{
+  text-decoration: none;
+  color: black;
+}
+
+.buttons input{
+  outline: none;
+  border-radius: 10px;
+}
+
+#back{
+  margin: 10px 10px 0 -10px;
+  float: left;
+}
+
+#submit{
+  margin: 10px -10px 0 10px;
+  float: right;
+}
+
+
+
+/* CONTROLE DO EFEITO DA BARRA AO PASSAR O MOUSE SOBRE O TEXTO*/
+ul li a::after{
+  content: '';
+  height: 3px;
+  width: 0px;
+  background: #FFFFFF;
+  position: absolute;
+  left: 0;
+  bottom: -9px;
+  transition: 0.5s;
+}
+
+ul li a:hover::after{
+  width: 100%;
+}
+
+/* FIM DO CONTROLE DE EFEITOS*/
