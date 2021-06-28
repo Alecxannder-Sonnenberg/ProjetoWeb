@@ -1,0 +1,129 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Meu Carrinho</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="../css/MeuCarrinho.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+  <!DOCTYPE html>
+
+  <body>
+
+  <header>
+
+    <nav>
+
+      <div id = "banner">
+
+        <div class = "navbar">
+
+          <a href = "#" id = "logo">
+            <img src="../assets/logo.png" alt="Error" id = "le">
+          </a>
+
+          <ul>
+
+            <li><input type = "text" class = bar id = "busca" value = "Busca"></li>
+            <li><a href = "#" class = "bar" id = "pp">Meus Produtos</a></li>
+            <li><a href = "#" class = "bar" id = "md">Minha Conta</a></li>
+            <li><a href = "#" class = "bar" id = "mc">Meu Carrinho</a></li>
+            <li><a href = "#" class = "bar" id = "mc">PlaceHolder</a></li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+
+  </header>
+  <div id = "content">
+    <div class = "curPlace">
+      <p>Meu Carrinho</p>
+    </div>
+    <div class = "box">
+      <div class = "carrinhoContent">
+        <!-- aqui ficarão os itens do carrinho, cada item deve seguir o esquema a seguir-->
+
+        <div class="item">
+          <a href="#"><img class="prodImg" src="../assets/itemex.png"></a>
+          <p>Exercicio 4 da turma SCC42069</p>
+          <img class="estrelas" src="../assets/image_12.png">
+          <p>=R$30,00</p>
+          <button type="button" class="remove">Remover Item</button>
+        </div>
+
+        <div class="item">
+          <a href="#"><img class="prodImg" src="../assets/itemex2.png"></a>
+          <p>Trabalho de Web-development II</p>
+          <img class="estrelas" src="../assets/image_12.png">
+          <p>=R$50,00</p>
+          <button type="button" class="remove">Remover Item</button>
+        </div>
+
+        <div class="item">
+          <a href="#"><img class="prodImg" src="../assets/itemex3.png"></a>
+          <p>Trabalho final de Redes Neurais</p>
+          <img class="estrelas" src="../assets/image_12.png">
+          <p>=R$60,00</p>
+          <button type="button" class="remove">Remover Item</button>
+        </div>
+
+        <div class="item">
+          <a href="#"><img class="prodImg" src="../assets/itemex4.png"></a>
+          <p>Exercicio 1 de calculo IV</p>
+          <img class="estrelas" src="../assets/image_12.png">
+          <p>=R$15,00</p>
+          <button type="button" class="remove">Remover Item</button>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- utilizei o css da navbar, para que o botão mantenha o estilo do site-->
+    <div class="navbar" id="botaoFinalizar">
+      <ul>
+        <li><a href = "#" class = "bar" id = "fc">Finalizar compra</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+
+    function setup() {
+      var els = document.getElementsByClassName("remove");
+      for (var i = 0; i < els.length; i++) {
+        els[i].addEventListener('click', function (e) {
+          e.preventDefault();
+          e.target.closest('div.item').remove();
+        });
+      }
+    }
+    setup();
+  </script>
+
+  </body>
+
+</body>
+
+</html>
