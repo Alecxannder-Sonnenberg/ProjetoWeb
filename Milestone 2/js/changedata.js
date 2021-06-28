@@ -1,3 +1,4 @@
+// Função que altera as informaççoes pessoais do usuario
 function changeuser(){
 
   na = document.getElementById("NA").value
@@ -14,31 +15,47 @@ function changeuser(){
   if (ca != "")
     document.getElementById("curso").innerHTML = "Curso: " + ca;
 
-  if (ea != "")
-    document.getElementById("email").innerHTML = "Email: " + ea;
+  regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
+  if (ea != "" && ea.match(regex))
+    document.getElementById("email").innerHTML = "Email: " + ea;
+  else if (ea != "" && !ea.match(regex))
+    alert("Email Invalido")
 
 }
 
+// Funções que alteram os dados de pagamento do usuario
 function changepay(){
   cr = document.getElementById("credit").value
   pay = document.getElementById("payment").value
 
-  if (cr != "" && cr > 0){
-
+  if (cr != "" && cr > 0) {
 
     val = document.getElementById("credval").innerHTML;
 
-    document.getElementById("credval").innerHTML = val + cr;
+    // Conversão de strings
+    rval = parseFloat(val, 10);
+    rcr = parseFloat(cr, 10);
 
+    if (rval + rcr <= 10000)
+      document.getElementById("credval").innerHTML = rval + rcr;
+    else alert ("Nosso site possui um limite de R$10000");
   }
 
   if (pay != "")
     document.getElementById("paymet").innerHTML = pay;
 }
 
+
+// Utilidade
 btn1 = document.querySelector("#submit1");
 btn2 = document.querySelector("#submit2");
+date = document.querySelector("#DNA");
 
+
+// Event Listeners
 btn1.addEventListener("click", changeuser);
 btn2.addEventListener("click", changepay);
+
+// Data limite (para que a pessoa não nasça no futuro)
+date.max = new Date().toISOString().split("T")[0];
