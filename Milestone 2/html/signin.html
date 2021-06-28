@@ -71,16 +71,16 @@
     <!-- TELA DE LOGIN -->
 
     <div class = "sidata">
-      <form class = "information">
+      <form class = "information" id = "login">
 
         <b>Nome de Usuario:</b>
-        <input type = "text" placeholder="Nome" required autofocus maxlength="26">
+        <input type = "text" placeholder="Nome" required autofocus maxlength="26" id = "un">
 
         <b>Senha:</b>
-        <input type = "password" placeholder="Senha" required >
+        <input type = "password" placeholder="Senha" required id = "ps">
 
         <div class = "buttons">
-          <input type = "submit" value = "Sign in" id = "submit">
+          <input type = "submit" value = "Sign in" id = "submit" onclick = "login()">
           <button id = "back"><a href = "initialpage.html">Voltar</a></button>
         </div>
 
