@@ -144,8 +144,8 @@ inocente, dar um aviso ou banir o usuario.
 
 ## 3.Comments About the Code
 *   Conforme fomos aprendendo durante o processo de criação de site tem alguns codigos que teriamos feito de forma diferente
-1- Teriamos modulado melhor o css e pensado em uma abordagem mais voltada a componentes.
-2- Nosso codigo javascript seria mais geral, por exemplo, pop-up serviria para qualquer pop-up generico.
+* 1- Teriamos modulado melhor o css e pensado em uma abordagem mais voltada a componentes.
+* 2- Nosso codigo javascript seria mais geral, por exemplo, pop-up serviria para qualquer pop-up generico.
 
 ## 4.Test Plan
 
