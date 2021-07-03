@@ -29,8 +29,8 @@ valor. Usuários também podem oferecer seus serviços no site.
 usuário : Clientes e Administradores. Todos possuem os atributos requisitados, com exceção
 de telefone. Administrador e Cliente podem acessar suas contas por meio da mesma
 página de login.
-*  O Administrador pode aceitar ou remover itens da loja, banir usuários e moderar
-comentários e avaliações. Na sua página possui as opções: verificar seus dados, verificar
+*  O Administrador pode aceitar ou remover itens da loja e banir usuário. 
+*  Na sua página possui as opções: verificar seus dados, verificar
 denúncias, histórico de banimentos.
 *  O cliente pode adicionar itens ao seu carrinho de compras, comentar e avaliar
 produtos, alterar seus dados, verificar seu histórico de compra e buscar por produtos no
@@ -76,7 +76,7 @@ não temos experiência suficiente para afirmar como isso vai ser feito na base 
 * Na milestone 2 não está implementado de fato, só tem uma pagina para ocupar o lugar
 não
   
-### Adição de Produtos
+### Adição de Produtos - Não conseguimos implementar na Milestone 2
 * Usuários em nossa plataforma podem adicionar como produto a realização de um
 trabalho, indicando o preço, número de trabalhos que consegue fazer em paralelo e número
 máximo de páginas. A especialização do vendedor também é explicitada *.
@@ -85,12 +85,12 @@ número de páginas, tópico abordado, tipo de arquivo e um nome.
 * Produtos e suas informações relevantes como, vendedor, preço, avaliação,
 comentários e imagem do produto serão armazenados no servidor.
 
-### Gerenciamento de Produtos
+### Gerenciamento de Produtos - Não conseguimos implementar na Milestone 2
 * Usuários podem modificar informações sobre os produtos/serviços oferecidos por
 ele, alterando nomes, preços, imagem e descrição do produto.
 * Os dados serão alterados na base de dados.
 
-### Exclusão de Produtos
+### Exclusão de Produtos - Não conseguimos implementar na Milestone 2
 * Um usuário pode excluir um item dos seus produtos ofertados, tirando o produto da
 base de dados de busca. Mesmo que o item seja “excluido”, administradores deveriam ter
 acesso para fins de moderação.
@@ -100,9 +100,8 @@ usuários que realizam fraudes e outros tipos de má prática.
 dados.
 
 ### Avaliação de Produtos
-* Usuários que comprarem um produto podem avaliá-lo em 0 a 5 estrelas e mandar
-um comentário sobre o produto. A média do produto é calculada a cada compra e
-armazenada no banco de dados.
+* Usuários que comprarem um produto podem avaliá-lo em 0 a 5 estrelas. 
+A média do produto é calculada a cada compra e armazenada no banco de dados.
 * Avaliações são armazenadas em conjunto com o produto.
 
 ### Comentários em Produtos
@@ -121,10 +120,10 @@ pagamento, nosso produto é digital e não possui local de entrega.
 sabemos ainda como exatamente seria feito isso, mas já temos em mente que esse pode
 ser um desafio.
 
-### Adição de Crédito a Conta
+### Adição de Crédito a Conta 
 * O usuário pode adicionar crédito em conta, que pode ser usado para compras. O
 crédito do usuário é armazenado na base de dados em conjunto com outras informações de
-conta.
+conta. O limite de creditos é o valor de R$10000.
 * Seria armazenado no banco de dados como um valor associado a conta do usuario
 
 ### Histórico de Compras
@@ -133,24 +132,37 @@ ele mesmo fez. As compras finalizadas são associadas a conta e armazenadas na b
 dados.
 * Histórico de compras seria armazenado e associado a conta do usuario
 
+### Historico de Banimentos
+
+* O admin pode ver banimentos passados, contem o usuario em questão, razão da denuncia e o que ele decidiu no julgamento.
+Serve de refência para denuncias futuras e apelos.
+
+### Decisões Pendentes
+
+* O admin pode ver denuncias recentes e decidir o que será feito. Pode declarar o usuario
+inocente, dar um aviso ou banir o usuario.
+
 ## 3.Comments About the Code
-N/A
+*   Conforme fomos aprendendo durante o processo de criação de site tem alguns codigos que teriamos feito de forma diferente
+1- Teriamos modulado melhor o css e pensado em uma abordagem mais voltada a componentes.
+2- Nosso codigo javascript seria mais geral, por exemplo, pop-up serviria para qualquer pop-up generico.
 
 ## 4.Test Plan
 
-* O que fizemos foi tentar navegar com base na pagina inicial, como algumas paginas estão incompletas colocamos uma pagina 404.
+* Nosso teste foi de, a partir da tela inicial, tentar seguir o nosso navigation diagram e testar as funcionalidades da pagina.
 
 ## 5.Test Result
 
-
+* A maioria das paginas que fizemos apresentaram comportamento desejado.
 
 ## 6. Build Procedures
 
-* Abrir a pasta Milestone 2 e rodar initialpage.html
+
 
 ## 7.Problems
 
-* Estamos cientes de um pequeno problema na pagina sign in e sign up em que o botão voltar faz display de que os dados devem ser preenchidos, estamos tentando consertar.
+* Algumas paginas, por limitação de falta de um server, como adicionar itens ao carrinho, ou colocar um item criado na base de buscas.
+Algumas paginas não foram feitas.
 
 ## 8.Comments
 N/A
