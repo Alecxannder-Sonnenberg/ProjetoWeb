@@ -62,10 +62,10 @@ não precisa se cadastrar por via dessas páginas. Usuario será admin e senha a
 junto com as informações pertinentes.
   
 ### Login no Site
-* Tanto usuários quanto administradores podem acessar suas contas por meio da
-página de login, inserindo nos campos nome de usuário e senhas, os dados respectivos.
+* Tanto usuários quanto administradores podem acessar suas contas por meio de um
+form sign-up (login), inserindo nos campos nome de usuário e senhas, os dados respectivos.
 Em seguida aperta o botão para acessar a conta e, caso os dados estejam corretos, entra
-com sucesso. Caso contrário ele permanece na tela, agora com um aviso de erro.
+com sucesso. Caso contrário ele permanece na tela e aparece uma mensagem de erro.
 * Imaginamos que as informações de segurança do usuário não serão guardadas
 como plain text.
 
@@ -73,6 +73,8 @@ como plain text.
 * Em todas as páginas o usuário pode buscar por um produto por meio de uma string.
 Não sabemos ainda como será processada, conhecemos métodos de busca via string mas
 não temos experiência suficiente para afirmar como isso vai ser feito na base de dados.
+* Na milestone 2 não está implementado de fato, só tem uma pagina para ocupar o lugar
+não
   
 ### Adição de Produtos
 * Usuários em nossa plataforma podem adicionar como produto a realização de um
