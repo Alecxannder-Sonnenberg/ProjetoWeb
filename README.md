@@ -15,7 +15,7 @@ onde aparece como usuario, claramente não é nosso intuito manter isso no produ
 
 ## Para Milestone 2
 
-Abra a pasta Milestone 2 e abra initialpage.html, não entendemos muito bem a especificação do projeto, especialmente se era obrigatorio ou não usar SPA.
+Temos de escrever isso
 
 ## 0. Project Idea
   Nosso "site" permite a venda e compra de realização de trabalhos acadêmicos dentro
