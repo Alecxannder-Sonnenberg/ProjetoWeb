@@ -1,0 +1,268 @@
+<!-- O que falta
+1- Clicar a imagem ir ao Produto
+2- Acabar avaliação (css e js)
+
+ -->
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Meus Dados</title>
+    <link rel="stylesheet" href="../css/historicodecompras.css">
+
+    <!--Font AWEsome-->
+    <script src="https://kit.fontawesome.com/e0dc38c529.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <!-- A barra superior contendo o logo e navegacao -->
+      <nav>
+
+        <div id = "banner">
+
+          <div class = "navbar">
+
+            <a href = "initialpage.html" id = "logo">
+              <img src="../assets/logo.png" alt="Error" id = "le">
+            </a>
+            <!-- Logo -->
+            <ul>
+
+              <li id = SB1>
+
+                <!--<form method = "post"> -->
+
+                  <input type = "text" class = bar id = "busca" placeholder = "Busca">
+                  <button><i class="fas fa-search fa-lg"></i></button>
+
+                <!--</form>-->
+
+              </li>
+
+              <!-- Barra -->
+
+              <li><a href = "404.html" class = "bar" id = "pp">Meus Produtos</a></li>
+              <li><a href = "dados.html" class = "bar" id = "md">Minha Conta</a></li>
+              <li><a href = "404.html" class = "bar" id = "mc">Meu Carrinho</a></li>
+              <li><a href = "#" class = "bar" id = "ph">PlaceHolder</a></li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </header>
+
+    <!-- Conteudo da Pagina -->
+
+    <section id = "content">
+
+      <div class = "menu">
+
+        <div class= "menubar">
+
+          <ul class = "options">
+
+            <!-- Imagem e nome de usuario, assim com um boas vindas -->
+
+            <section class = "user">
+              <img src = "../assets/default.png" id = "profile-pic">
+              <span id = "welcome">
+
+                <b><span id = "username">Usuario</span>, Bem Vindo.</b>
+
+              </span>
+
+            </section>
+
+            <!-- Funcionalidades e outras informacoes -->
+
+            <p><b>Funcionalidades</b></p>
+
+            <ul>
+
+              <li><a href = "dados.html">Meus Dados</a></li>
+              <li><a href = "404.html">Historico de Compras</a></li>
+
+            </ul>
+
+              <p><b>Problemas?</b></p>
+
+            <ul>
+
+              <li>Email: helpdesk@svt.com</li>
+              <li>Fale Conosco: </li>
+              <p>(XX) XXXXX-XXXX</p>
+
+            </ul>
+
+            <a href = "404.html" ><b>FAQ</b></a>
+
+          </ul>
+
+          <!-- Como vão ficar links e botões-->
+
+          <p><a href = "initialpage.html" id = "sair"><b>Sair</b></a></p>
+
+        </div>
+
+      </div>
+
+      <!-- Os dados atuais do usuario -->
+
+      <div class = "data">
+
+        <div id = "title">
+
+          <p><b> Historico de Compras</b></p>
+
+        </div>
+
+        <!-- Conteudo da caixa (Historico) -->
+        <h2>Informações de compra</h2>
+
+        <div class = container>
+        <!-- Grid com as informações -->
+        <!-- Organizada via css -->
+          <div class = "grid_object" id = "1">
+
+              <div class = "image"><img src = "../assets/itemex.png" alt = "Error"></div>
+              <div class = "productname">Trabalho de Web</div>
+              <div class = "grating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+              <div class = "price">Preço: R$1000</div>
+              <div class = "headerpday">Data de compra:</div>
+              <div class = "pday">01/02/0003 </div>
+              <div class = "headerurating">Sua avaliação:</div>
+              <div class = "urating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+
+          </div>
+
+          <div class = "grid_object" id = "2">
+
+              <div class = "image"><img src = "../assets/itemex4.png" alt = "Error"></div>
+              <div class = "productname">Trabalho de Web</div>
+              <div class = "grating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class = "price">Preço: R$1000</div>
+              <div class = "headerpday">Data de compra:</div>
+              <div class = "pday">01/02/0003 </div>
+              <div class = "headerurating">Sua avaliação:</div>
+              <div class = "urating"><button class = "avaliate">Avaliar</button></div>
+
+          </div>
+
+          <div class = "grid_object" id = "3">
+
+              <div class = "image"><img src = "../assets/itemex2.png" alt = "Error"></div>
+              <div class = "productname">Trabalho de ICC</div>
+              <div class = "grating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class = "price">Preço: R$11000</div>
+              <div class = "headerpday">Data de compra:</div>
+              <div class = "pday">31/12/1003 </div>
+              <div class = "headerurating">Sua avaliação:</div>
+              <div class = "urating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+
+          </div>
+
+          <div class = "grid_object" id = "4">
+
+              <div class = "image"><img src = "../assets/itemex3.png" alt = "Error"></div>
+              <div class = "productname">Trabalho de ICC</div>
+              <div class = "grating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class = "price">Preço: R$11000</div>
+              <div class = "headerpday">Data de compra:</div>
+              <div class = "pday">31/12/1003 </div>
+              <div class = "headerurating">Sua avaliação:</div>
+              <div class = "urating"><button class = "avaliate">Avaliar</button></div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- POP UP -->
+      <div class = "popup">
+
+        <div class = "close-btn">&times;</div>
+
+        <div class = "form">
+
+          <h2>De 0 a 5 estrelas:</h2>
+          <div class = "form-star">
+            <span class = "star-rating">
+              <input type="radio" name="rating1" value="1"><i></i>
+              <input type="radio" name="rating1" value="2"><i></i>
+              <input type="radio" name="rating1" value="3"><i></i>
+              <input type="radio" name="rating1" value="4"><i></i>
+              <input type="radio" name="rating1" value="5"><i></i>
+            </span>
+          </div>
+
+          <div class = "form-element">
+            <input type = "submit" value = "Avaliar" id = "submit1">
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM DO POP UP -->
+
+    </section>
+
+
+    <!-- Script sobre os popups do historico de vendas -->
+    <script src = "../js/popups2.js"></script>
+
+
+  </body>
+
+</html>
