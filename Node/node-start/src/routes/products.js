@@ -15,8 +15,3 @@ router.put('/:id', controller.put);
 router.delete('/:id', controller.delete);
 
 module.exports = router;
-
-//mongodb+srv://WebGroup:<password>@webclass.juiuh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-
-//cmd line
-//mongosh "mongodb+srv://webclass.juiuh.mongodb.net/myFirstDatabase" --username WebGroup

@@ -31,7 +31,7 @@ exports.update = async(id, data) => {
                 data_nascimento: data.data_nascimento,
                 curso: data.curso,
                 email: data.email,
-                credito: credito + data.credito, //Ver se isso da erro depois
+                //credito: credito + data.credito, //Ver se isso da erro depois
                 pay_met: data.pay_met
             }
         });
@@ -40,6 +40,6 @@ exports.update = async(id, data) => {
 
 exports.delete = async(id) => {
     await Customer
-        .findOneAndRemove(id)
+        .findByIdAndRemove(id)
 
 }

@@ -1,6 +1,6 @@
 'use strict'
 
-const mongoose = require ('mongoose')
+const mongoose = require ('mongoose');
 const Schema = mongoose.Schema;
 
 const schema = new Schema({
@@ -15,14 +15,14 @@ const schema = new Schema({
     },
     createDate: {
         type: Date,
-        required: true,
-        default: Date.now
+        default: Date.now,
+        required: true
     },
     status: {
         type: String,
-        required: true,
         enum: ['created', 'done'],
-        default: 'created'
+        default: 'created',
+        required: true
     },
     items: [{
         quantity:{
@@ -36,7 +36,8 @@ const schema = new Schema({
         },
         product:{
             type: mongoose.Schema.Types.ObjectId,
-            ref: 'Product'
+            ref: 'Product',
+            required: true
         }
     }]
 });

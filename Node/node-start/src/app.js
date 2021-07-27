@@ -1,12 +1,13 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const config = require('./config');
 
 const app = express();
 const router = express.Router()
 
 //Conecta ao banco
-mongoose.connect('mongodb+srv://WebGroup:Password@webclass.juiuh.mongodb.net/WebClass?retryWrites=true&w=majority')
+mongoose.connect(config.connectionString)
 
 //Carrega os models
 const Product = require('./models/product');
@@ -17,7 +18,7 @@ const Order = require('./models/order');
 const index = require('./routes/index.js');
 const products = require('./routes/products.js');
 const customers = require('./routes/customers.js');
-
+const orders = require('./routes/orders.js');
 //Parsers
 app.use(bodyParser.json());//convert o request para js o n
 app.use(bodyParser.urlencoded({ extended : false }));
@@ -26,5 +27,6 @@ app.use(bodyParser.urlencoded({ extended : false }));
 app.use('/', index);
 app.use('/products', products);
 app.use('/customers', customers);
+app.use('/orders', orders);
 
 module.exports = app;
