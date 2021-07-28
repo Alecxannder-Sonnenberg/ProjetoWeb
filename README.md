@@ -8,14 +8,9 @@ Jayro Boy de Vasconcellos Neto - NºUSP 9762880
 
 Gabriel dos Santos Brito - NºUSP 10284250
 
-## Para Milestone 1
+## Milestone 3
 
-Ao abrir o ZIP nomeado MockUpProjetoWeb a "navegação" do mockup pode ser iniciada atráves do telainicialsemlogin.html, que é um bom ponto de começo para explorar as funcionalidades de nosso projeto. Alguns botões das paginas do Admnistrados (Como historico de compras e meus produtos, e outros comuns entre nossos usuarios) levam a paginas
-onde aparece como usuario, claramente não é nosso intuito manter isso no produto final, mas para fins de mockup acreditamos ser tolerável. Para uma visão mais geral por favor visualizem o diagrama de navegação, no formato PNG, contido no git.
-
-## Para Milestone 2
-
-Abra a pasta Milestone 2 e abra initialpage.html, não entendemos muito bem a especificação do projeto, especialmente se era obrigatorio ou não usar SPA.
+Nosso proejto se encontra incompleto. O 'back-end' está na pasta de mesmo nome, para rodar o codigo basta ir até a o diretorio Backend/node-start e digitar npm install e em seguida npm start. Para o 'front-end'e só ir na pasta inicial (onde se encontra o back end) e digitar npm install e npm start.
 
 ## 0. Project Idea
   Nosso "site" permite a venda e compra de realização de trabalhos acadêmicos dentro
@@ -136,22 +131,28 @@ N/A
 
 ## 4.Test Plan
 
+Front-end
 * O que fizemos foi tentar navegar com base na pagina inicial, como algumas paginas estão incompletas colocamos uma pagina 404.
+
+Back-end
+* Testamos se as funções get put post e delete dos models implementados (customer, order e product) funcionavam, usamos o Postman para enviar os comandos e a plataforma 3T para verificar se eles estavam sendo de fato inseridos na Base de Dados.
 
 ## 5.Test Result
 
-
+* Back-end
+  
 
 ## 6. Build Procedures
 
-* Abrir a pasta Milestone 2 e rodar initialpage.html
+Nosso proejto se encontra incompleto. O 'back-end' está na pasta de mesmo nome, para rodar o codigo basta ir até a o diretorio Backend/node-start e digitar npm install e em seguida npm start. Para o 'front-end'e só ir na pasta inicial (onde se encontra o back end) e digitar npm install e npm start.
 
 ## 7.Problems
 
-* Estamos cientes de um pequeno problema na pagina sign in e sign up em que o botão voltar faz display de que os dados devem ser preenchidos, estamos tentando consertar.
+* Encontramos dificuldades nos dois lados do projeto. No front aplicar router no vue custou muito tempo e no back end tivemos de nos adaptar a usar uma ferramenta chamda heroku, já que a plataforma azure apresentou complicações. Por razões que ainda não entendemos o Heroku ao tentar falar com a base de dados era negado, mesmo tendo deixado o acesso a base livre para todos e nos garantindo que nos testes não estava rodando localmente apenas.
 
 ## 8.Comments
-N/A
+
+* Mesmo com os tutorias apresentados em aula fomos incapazes de concluir o projeto
 
 # Navigation Diagram
 ![diagramdenavegação](https://user-images.githubusercontent.com/26423265/120227625-e82d7500-c21f-11eb-8c37-2931bbec8d98.png)
