@@ -24,7 +24,7 @@
         <Menu
             @gotoHistoricoDeCompras="gotoHistoricoDeCompras"
             @gotoHistoricoDeBanimentos="gotoHistoricoDeBanimentos"
-            @gotogotoDecisoesPendentes="gotoDecisoesPendentes"
+            @gotoDecisoesPendentes="gotoDecisoesPendentes"
             :siteuser="siteuser"/>
         <DadosAdmin :siteuser="siteuser"/>
       </section>
@@ -35,7 +35,7 @@
         <Menu
             @gotoHistoricoDeCompras="gotoHistoricoDeCompras"
             @gotoHistoricoDeBanimentos="gotoHistoricoDeBanimentos"
-            @gotogotoDecisoesPendentes="gotoDecisoesPendentes"
+            @gotoDecisoesPendentes="gotoDecisoesPendentes"
             :siteuser="siteuser"/>
         <HistoricoDeCompras/>
       </section>
@@ -46,7 +46,7 @@
         <Menu
             @gotoHistoricoDeCompras="gotoHistoricoDeCompras"
             @gotoHistoricoDeBanimentos="gotoHistoricoDeBanimentos"
-            @gotogotoDecisoesPendentes="gotoDecisoesPendentes"
+            @gotoDecisoesPendentes="gotoDecisoesPendentes"
             :siteuser="siteuser"/>
         <HistoricoDeBanimentos/>
       </section>
@@ -57,9 +57,9 @@
         <Menu
             @gotoHistoricoDeCompras="gotoHistoricoDeCompras"
             @gotoHistoricoDeBanimentos="gotoHistoricoDeBanimentos"
-            @gotogotoDecisoesPendentes="gotoDecisoesPendentes"
+            @gotoDecisoesPendentes="gotoDecisoesPendentes"
             :siteuser="siteuser"/>
-        <HistoricoDeBanimentos/>
+        <DecissoesPendentes/>
       </section>
     </div>
     <div v-if="curPage === 'Busca'">
@@ -67,7 +67,7 @@
         <Menu
             @gotoHistoricoDeCompras="gotoHistoricoDeCompras"
             @gotoHistoricoDeBanimentos="gotoHistoricoDeBanimentos"
-            @gotogotoDecisoesPendentes="gotoDecisoesPendentes"
+            @gotoDecisoesPendentes="gotoDecisoesPendentes"
             :siteuser="siteuser"/>
         <Busca :products="products"/>
       </section>
@@ -86,10 +86,12 @@ import MeuCarrinho from "@/components/MeuCarrinho";
 import HistoricoDeCompras from "@/components/HistoricoDeCompras";
 import HistoricoDeBanimentos from "@/components/HistoricoDeBanimentos";
 import Busca from "@/components/Busca";
+import DecissoesPendentes from "@/components/DecisoesPendentes";
 
 export default {
   name: 'App',
   components: {
+    DecissoesPendentes,
     HistoricoDeBanimentos,
     HistoricoDeCompras,
     MeuCarrinho,
@@ -143,7 +145,7 @@ export default {
     return{
       loggedin: false,
       siteuser: Object,
-      curPage: "InitialPage",
+      curPage: "DecisoesPendentes",
       products: []
     }
   },
