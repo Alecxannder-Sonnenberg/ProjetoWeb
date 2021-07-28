@@ -8,14 +8,21 @@ Jayro Boy de Vasconcellos Neto - NºUSP 9762880
 
 Gabriel dos Santos Brito - NºUSP 10284250
 
+## Para Milestone 1
+
 Ao abrir o ZIP nomeado MockUpProjetoWeb a "navegação" do mockup pode ser iniciada atráves do telainicialsemlogin.html, que é um bom ponto de começo para explorar as funcionalidades de nosso projeto. Alguns botões das paginas do Admnistrados (Como historico de compras e meus produtos, e outros comuns entre nossos usuarios) levam a paginas
 onde aparece como usuario, claramente não é nosso intuito manter isso no produto final, mas para fins de mockup acreditamos ser tolerável. Para uma visão mais geral por favor visualizem o diagrama de navegação, no formato PNG, contido no git.
+
+## Para Milestone 2
+
+Abra a pasta Milestone 2 e abra initialpage.html, não entendemos muito bem a especificação do projeto, especialmente se era obrigatorio ou não usar SPA.
 
 ## 0. Project Idea
   Nosso "site" permite a venda e compra de realização de trabalhos acadêmicos dentro
 da plataforma. Os produtos podem ser avaliados e comentados por usuários. Os usuários
 podem adicionar crédito em conta sendo capazes de assim realizar compras com esse
 valor. Usuários também podem oferecer seus serviços no site.
+
 ## 1. Requirements
       
 * Nossa plataforma, como pedido na especificação do projeto, comporta dois tipo de 
@@ -128,16 +135,20 @@ dados.
 N/A
 
 ## 4.Test Plan
-N/A
+
+* O que fizemos foi tentar navegar com base na pagina inicial, como algumas paginas estão incompletas colocamos uma pagina 404.
 
 ## 5.Test Result
-N/A
+
+
 
 ## 6. Build Procedures
-N/A
+
+* Abrir a pasta Milestone 2 e rodar initialpage.html
 
 ## 7.Problems
-N/A
+
+* Estamos cientes de um pequeno problema na pagina sign in e sign up em que o botão voltar faz display de que os dados devem ser preenchidos, estamos tentando consertar.
 
 ## 8.Comments
 N/A
