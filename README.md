@@ -127,7 +127,7 @@ dados.
 * Histórico de compras seria armazenado e associado a conta do usuario
 
 ## 3.Comments About the Code
-N/A
+Tentamos o melhor para deixarr o codigo bem comentado.
 
 ## 4.Test Plan
 
@@ -206,12 +206,32 @@ Back-end
   ![image](https://user-images.githubusercontent.com/26423265/127412638-0e284a7c-32cc-483f-aa6e-11186274b696.png)
 
  
-  ### Pedidos
+  ### Pedidos (Carrinho)
+
+   Criar Pedidos
+   
+   ![image](https://user-images.githubusercontent.com/26423265/127413869-146aa971-830a-431d-92bf-0fe9db95dc0c.png)
+
+   Resultado
+    
+   ![image](https://user-images.githubusercontent.com/26423265/127413924-364224af-7a2c-49b7-a719-dc44de9f9687.png)
+
+   Atualizar Pedidos (Por id)
+   
+   ![image](https://user-images.githubusercontent.com/26423265/127414397-631022cc-a84d-4c0f-9f1c-1cee133bdfc1.png)
+
+   Resultado
+   
+   ![image](https://user-images.githubusercontent.com/26423265/127414415-b0635e10-931a-4a74-ac6c-e05049545819.png)
 
    
+   Remover Pedidos
    
-  
-  
+   ![image](https://user-images.githubusercontent.com/26423265/127414439-d418bca4-7173-45db-8816-d7c131c5760c.png)
+
+   Resultado
+   
+   ![image](https://user-images.githubusercontent.com/26423265/127414466-fc868ea5-9994-43bb-a223-63a4f907148d.png)
 
   
 
