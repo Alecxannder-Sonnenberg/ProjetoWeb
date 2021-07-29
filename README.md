@@ -140,6 +140,42 @@ Back-end
 ## 5.Test Result
 
 * Back-end
+
+  ### Usuario
+
+  Cadrastramento de ususario (Sign Up)
+  
+  ![image](https://user-images.githubusercontent.com/26423265/127410666-5c01878a-415c-4810-b1ac-07ea575c3209.png)
+  
+  Inserçao 
+  
+  ![image](https://user-images.githubusercontent.com/26423265/127410847-82ec4da2-35d2-42fb-9912-ad8ff9fbde5c.png)
+
+  Resultado
+  
+  ![image](https://user-images.githubusercontent.com/26423265/127410894-23f35b8d-de0c-4ce7-9858-e2030bf7a13f.png)
+
+  Atualizar Informações de Usuario (Alterar Dados, usa o id do usuario)
+  
+  ![image](https://user-images.githubusercontent.com/26423265/127411150-84f75f95-113d-46d9-ac02-1ec0108ae018.png)
+  
+  Resultado
+  
+  ![image](https://user-images.githubusercontent.com/26423265/127411214-9c707f79-acac-44a3-b12b-9f75be1ef371.png)
+
+  Remover Usuario (Caso ele fosse banido pelo admnistrador ou removesse a conta, usa o id tambem)
+  
+  ![image](https://user-images.githubusercontent.com/26423265/127411265-3768aed5-75d0-461b-804e-54fe82d31e11.png)
+
+  Resultado
+  
+  ![image](https://user-images.githubusercontent.com/26423265/127411284-9abdbb96-520a-46b5-a40f-ed4c7079ef22.png)
+
+   
+   
+  
+  
+
   
 
 ## 6. Build Procedures
