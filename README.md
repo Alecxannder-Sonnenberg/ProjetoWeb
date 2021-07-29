@@ -170,6 +170,43 @@ Back-end
   Resultado
   
   ![image](https://user-images.githubusercontent.com/26423265/127411284-9abdbb96-520a-46b5-a40f-ed4c7079ef22.png)
+  
+  ### Produtos
+  
+  Inserção de Produtos
+  
+  ![image](https://user-images.githubusercontent.com/26423265/127411659-45c73d49-79fb-495a-a026-3823d9da49cc.png)
+
+  Inserção
+  
+  ![image](https://user-images.githubusercontent.com/26423265/127411952-f73f5145-1829-412b-bfb5-7e7fbd1af39f.png)
+  
+  Resultado
+  
+  ![image](https://user-images.githubusercontent.com/26423265/127411994-704723ca-5d90-43ed-a080-6384568b9db2.png)
+
+  Atualização de Produtos (Usa ID)
+  
+  ![image](https://user-images.githubusercontent.com/26423265/127412077-4ec0e1d2-ab5e-4ee9-a7ae-3b3f1cc752b6.png)
+
+  Resultado
+  
+  ![image](https://user-images.githubusercontent.com/26423265/127412100-721c0a2b-c404-4810-8f95-f9e05ba1706d.png)
+
+  Remoção de Produto (Usa ID, os valores mudaram por um erro que tinha no delete, consertado)
+  
+  ![image](https://user-images.githubusercontent.com/26423265/127412514-aa69a0d6-7105-4dfc-ae81-1cea8a8984ca.png)
+  
+  Resultado
+  
+  ![image](https://user-images.githubusercontent.com/26423265/127412546-eeb171e5-edd8-4e8d-897e-366ad1736d1c.png)
+
+  Busca por Tag (Tem por Id e outros tipos, mas são triviais)
+  
+  ![image](https://user-images.githubusercontent.com/26423265/127412638-0e284a7c-32cc-483f-aa6e-11186274b696.png)
+
+ 
+  ### Pedidos
 
    
    
@@ -188,7 +225,7 @@ Nosso proejto se encontra incompleto. O 'back-end' está na pasta de mesmo nome,
 
 ## 8.Comments
 
-* Mesmo com os tutorias apresentados em aula fomos incapazes de concluir o projeto
+* Mesmo com os tutoriais apresentados em aula fomos incapazes de concluir o projeto
 
 # Navigation Diagram
 ![diagramdenavegação](https://user-images.githubusercontent.com/26423265/120227625-e82d7500-c21f-11eb-8c37-2931bbec8d98.png)
