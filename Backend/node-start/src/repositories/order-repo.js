@@ -20,6 +20,15 @@ exports.create = async(data) => {
         .save()
 }
 
+exports.update = async(id, data) => {
+    await Order
+        .findByIdAndUpdate(id, {
+            $set: {
+                items : data.items
+            }
+        });
+}
+
 exports.delete = async(id) => {
     await Order
         .findByIdAndRemove(id)
